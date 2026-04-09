@@ -1,0 +1,29 @@
+body {
+    background-color: #e8eced;
+    font-family: Arial;
+    color: white;
+    text-align: center;
+}
+.card {
+    height: 1000px;
+    background-image: url("images/christus.webp");
+}
+#first_pres_grid {
+    display: grid;
+    grid-template: 1fr/ 1fr 1fr 1fr;
+}
+#apostles_grid {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+
+}
+img {
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 40%;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+.pres{
+
+}

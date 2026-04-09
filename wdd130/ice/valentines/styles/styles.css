@@ -1,0 +1,66 @@
+/*
+Author: Rawlings
+Class: WDD 130
+Date: 11 Feb 2026
+
+Citations: 
+https://alveyworld.github.io/wdd130/activities/week06/ice-holiday_page.html
+*/
+
+/* Add CSS here to style */
+body {
+    background-color: rgb(246, 4, 64);
+    color: #ececec;
+    font-family: Arial, sans-serif;
+
+}
+
+#wrapper {
+    color: #549aee;
+}
+
+header {
+    color: rgb(255, 0, 0);
+    background-color: pink;
+}
+
+ul {
+    columns: 4;
+    column-gap: 40px;
+}
+
+li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+main {
+    background-color: rgb(145, 49, 44);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+h1 {
+    color: pink;
+    grid-column: 1/4;
+}
+
+img {
+    width: 60%;
+    grid-column: 1/4;
+    margin: 0 auto;
+    display: block;
+}
+
+section {
+    background-color: white;
+    color: maroon;
+    margin-left: 3%;
+    padding: 5%;
+    text-align: left;
+}
+
+footer {
+    background-color: pink;
+}

@@ -1,0 +1,105 @@
+<!--
+Author: Rawlings
+Class: WDD 130
+Copyright/Date: 9 Feb 2026
+Source/Work Cited: 
+https://alveyworld.github.io/wdd130/activities/week06/ice-favorite_devo.html
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_search_button
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Favorite Devotionals</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  body {
+    font-family: Arial;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+
+  form.example button:hover {
+    background: #0b7dda;
+  }
+
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-image">
+        <h1>My Favorite<br>Devotionals</h1>
+      </div>
+    </header>
+    <main>
+      <div class="content-box">
+        <!-- Add your devotional content here -->        
+        <!--Table of Favorites 
+          Create a table with 4 columns 
+          In the main section add to the div with the class name content-box. Write the html code for a table with 4 columns for Speaker, Title, Location, and Year. Add 3 rows and include appropriate information about your favorite devotional.-->
+        <table>
+          <tr>
+            <th>Speaker</th>
+            <th>Title</th>
+            <th>Location</th>
+            <th>Year</th>
+          </tr>
+          <tr>
+            <td>Tom Waldron</td>
+            <td>Receiving Revalation and Acting in Faith</td>
+            <td>Rexburg</td>
+            <td>2024</td>
+          </tr>
+          <tr>
+            <td>Lisa L. Harkness</td>
+            <td>Stand and Be Not Moved</td>
+            <td>Rexburg</td>
+            <td>2020</td>
+          </tr>
+          <tr>
+            <td>Kent F. Richards</td>
+            <td>A Straw Thrown Up Indicates the Direction of the Wind</td>
+            <td>Rexburg</td>
+            <td>2018</td>
+          </tr>
+        </table>
+        <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+          <input type="text" placeholder="Search.." name="search2">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
